@@ -1,0 +1,46 @@
+.expertise {
+    max-height: 560px;
+    padding: 64px 0 64px 0;
+}
+
+.expertise__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 1240px;
+    height: 352px;
+    margin-top: 64px;
+}
+
+.expertise__role {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.expertise__box {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    flex-shrink: 0;
+}
+
+.expertise__desc {
+    display: flex;
+    width: 588px;
+    height: 96px;
+    line-height: 100%;
+}
+
+.expertise__item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

@@ -1,0 +1,43 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 104px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.active{
+    background: #fff;
+}
+
+.nav__list a.active {
+    color: #000;
+}
+
+.nav__list a {
+    text-decoration: none;
+    padding: 8px 24px 8px 24px;
+    color: #fff;
+    border-radius: 24px;
+}
+
+.nav__logo {
+    flex: 1, 1, 0%;
+}
+
+.nav__btn {
+    flex: 1, 1 , 0%;
+    text-decoration: none;
+    padding: 8px 24px 8px 24px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100px;
+}
+
+.nav__btn:hover {
+    background: gray;
+}

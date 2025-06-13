@@ -1,0 +1,12 @@
+.heading {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.img-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-left: 0;
+}

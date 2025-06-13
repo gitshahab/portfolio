@@ -1,0 +1,10 @@
+.blog {
+    height: 915.5;
+    padding: 64px 0 64px 0;
+}
+
+.blog__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

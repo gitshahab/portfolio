@@ -1,0 +1,45 @@
+.header__banner{
+    padding: 176px 0;
+}
+
+.header__heading {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 80px;
+    text-align: center;
+    gap: 8px;
+    margin-bottom: 112px;
+}
+
+.header__img {
+    width: 8rem;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -6px;
+}
+
+.img-wrapper {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.header__base {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    height: 72px;
+}
+
+.header__logo {
+    display: flex;
+    gap: 136px;
+}
+
+.header__para {
+    width: 492px;
+    height: 72px;
+    line-height: 100%;
+}

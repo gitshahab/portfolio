@@ -1,0 +1,119 @@
+.card {
+    width: 1240;
+    height: 493;
+    gap: 32px;
+    border-radius: 40px;
+}
+
+.card__left {
+    width: 572;
+    height: 429;
+    border-radius: 24px;  
+}
+
+.card__right {
+    width: 572;
+    height: 429;
+    display:block;
+}
+
+.card__heading {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.card__desc {
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.card__tag {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    width: 67;
+    height: 30;
+    padding: 8px 24px 8px 24px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    border-width: 1px;
+}
+
+.card__role {
+    display: flex;
+    gap: 10px;
+}
+
+.card__right-upper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card__btn {
+    position: absolute;
+    bottom: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    width: 184;
+    height: 56;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    border-radius: 100px;
+    border-width: 1px;
+    background: #fff;
+    color: black;
+}
+
+.card-wrapper {
+    position: relative;
+    border-radius: 40px;
+    padding: 32px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1240px;
+    margin-inline: auto;
+}
+
+
+.card-bg {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(100, 116, 139, 0.15); /* slate-500 with opacity */
+    backdrop-filter: blur(40px);
+    border-radius: 40px;
+    z-index: 0;
+}
+
+.orange-blur {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 240px;
+    background: #FF804A;
+    filter: blur(180px);
+    border-radius: 9999px;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.card {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    gap: 32px;
+    border-radius: 32px;
+}
