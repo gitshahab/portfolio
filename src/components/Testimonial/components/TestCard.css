@@ -5,7 +5,8 @@
     position: relative;
 }
 
-.card__right {
+.test__card__right {
+    margin-top: 32px;
     position: relative;
     width: 710px;
     height: 200px;

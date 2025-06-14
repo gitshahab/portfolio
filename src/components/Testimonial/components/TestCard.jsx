@@ -11,7 +11,7 @@ const TestCard = ({imgPath, testimony, company, name}) => {
                 <p className="card__company">{company}</p>
             </div>
         </div>
-        <div className="card__right">
+        <div className="test__card__right">
             <img className="card__bg-img" src={BgImg} alt="Decorative Design" />
             <h4 className="card__desc">{testimony}</h4>
         </div>

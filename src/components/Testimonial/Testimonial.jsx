@@ -37,7 +37,7 @@ const Testimonial = () => {
         setTimeout(() => {
         setCurrentIndex((prev) => (prev + 1) % TestimonialMockData.length);
         setFade(true);
-        }, 200); // quick fade-out before switching
+        }, 200); 
     };
 
     const handlePrev = () => {
