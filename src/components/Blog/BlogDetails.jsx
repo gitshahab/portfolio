@@ -6,7 +6,12 @@ const BlogDetails = () => {
   const { id } = useParams();
   const blog = BlogMockData.find(item => item.id === parseInt(id));
 
-  if (!blog) return <p>Blog not found</p>;
+  if (!blog) return <p style={{ 
+            minHeight: "600px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center"
+        }}>Blog not found</p>;
 
   return (
     <div style={{ minHeight: "810px", padding: "64px 0 64px 0" }}>

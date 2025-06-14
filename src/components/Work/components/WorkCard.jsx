@@ -14,7 +14,7 @@ const WorkCard = ({id, workImg, workTitle, workDesc, tags }) => {
         <div className="card__right">
             <div className="card__right__upper">
                 <h3 className="card__heading">{workTitle}</h3>
-                <p className="card__desc">{workDesc}</p>
+                <p className="card-para">{workDesc}</p>
                 <div className="card__role">
                     {tags.map((tag, index) => (
                     <span className="card__tag" key={index}>{tag}</span>

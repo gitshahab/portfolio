@@ -6,7 +6,12 @@ const WorkDetails = () => {
   const { id } = useParams();
   const project = WorkMockData.find(item => item.id === parseInt(id));
 
-  if (!project) return <p>Project not found</p>;
+  if (!project) return <p style={{ 
+            minHeight: "600px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center"
+        }}>Project not found</p>;
 
   return (
     <div style={{ minHeight: "810px", padding: "64px 0 64px 0" }}>
