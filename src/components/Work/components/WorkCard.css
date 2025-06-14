@@ -15,10 +15,12 @@
 }
 
 .card__right {
-    height: 429px;
+    width: 572px;
+    min-height: 429px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .card__heading {
