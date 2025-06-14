@@ -1,21 +1,19 @@
-import Header from './components/Header/Header';
-import Expertise from './components/Expertise/Expertise';
-import Work from './components/Work/Work';
-import Experience from './components/Experience/Experience';
-import Blog from './components/Blog/Blog';
-import Testimonial from './components/Testimonial/Testimonial';
+import ScrollToTop from './components/common/ScrollToTop';
+import Footer from './components/Footer/Footer';
+import Nav from './components/Header/components/Nav';
+import AppRouter from './routes/Routes';
 
 function App() {
 
   return (
+    <>
     <main className='container'> 
-      <Header/>
-      <Expertise/>
-      <Work/>
-      <Experience/>
-      <Blog/>
-      <Testimonial/>
+      <Nav/>
+      <ScrollToTop />
+      <AppRouter />
     </main>
+      <Footer/>
+    </>
   )
 }
 

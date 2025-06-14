@@ -1,0 +1,35 @@
+.faq {
+    height: 481px;
+    padding: 64px 0 64px 0;
+}
+
+.faq-item {
+    margin-top: 32px;
+}
+
+.faq-question {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.faq__head {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0;
+}
+
+
+
+.faq__para {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+}

@@ -1,43 +1,45 @@
 .card {
-    width: 1240;
-    height: 493;
+    position: relative;
+    z-index: 2;
+    display: flex;
     gap: 32px;
-    border-radius: 40px;
+    border-radius: 32px;
 }
 
 .card__left {
-    width: 572;
-    height: 429;
+    width: 572px;
+    height: 429px;
     border-radius: 24px;  
 }
 
 .card__right {
-    width: 572;
-    height: 429;
-    display:block;
+    width: 572px;
+    height: 429px;
+    position: relative;
 }
 
 .card__heading {
     font-weight: 600;
     font-size: 40px;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 
 .card__desc {
+    margin-top: 16px;
+    width: 572px;
+    height: 54px;
     font-size: 18px;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
 }
 
 .card__tag {
     font-weight: 600;
     font-size: 12px;
     line-height: 100%;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-transform: uppercase;
-    width: 67;
-    height: 30;
     padding: 8px 24px 8px 24px;
     border: 1px solid #fff;
     border-radius: 100px;
@@ -45,15 +47,11 @@
 }
 
 .card__role {
+    margin-top: 16px;
     display: flex;
     gap: 10px;
 }
 
-.card__right-upper {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
 
 .card__btn {
     position: absolute;
@@ -62,13 +60,8 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0%;
-    width: 184;
-    height: 56;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 32px;
+    letter-spacing: 0;
+    padding: 16px 32px 16px 32px;
     border-radius: 100px;
     border-width: 1px;
     background: #fff;
@@ -90,7 +83,7 @@
 .card-bg {
     position: absolute;
     inset: 0;
-    background-color: rgba(100, 116, 139, 0.15); /* slate-500 with opacity */
+    background-color: rgba(100, 116, 139, 0.15);
     backdrop-filter: blur(40px);
     border-radius: 40px;
     z-index: 0;

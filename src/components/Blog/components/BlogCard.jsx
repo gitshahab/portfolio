@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./BlogCard.css";
 
-const BlogCard = ({ imgPath, date, tags, title }) => {
+const BlogCard = ({ id, imgPath, date, tags, title }) => {
   return (
     <div className="blogcard">
         <img className="blogcard__img" src={imgPath} alt={title} width="286" height="214"/>
@@ -14,7 +14,7 @@ const BlogCard = ({ imgPath, date, tags, title }) => {
                 ))}
             </div>
         </div>
-        <Link></Link>
+        <Link className="blog__btn" to={`/blogs/details/${id}`}>Read</Link>
     </div>
   )
 }

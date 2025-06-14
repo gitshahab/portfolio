@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import "./WorkCard.css"
+import "./WorkCard.css";
 
 const WorkCard = ({id, workImg, workTitle, workDesc, tags }) => {
   return (

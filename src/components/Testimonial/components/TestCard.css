@@ -1,12 +1,68 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    position: relative;
+}
+
+.card__right {
+    position: relative;
+    width: 710px;
+    height: 200px;
+    padding: 16px;
+    z-index: 0;
+    overflow: hidden;
+}
+
 .card__desc {
     font-weight: 500;
     font-size: 32px;
     line-height: 40px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
+    position: relative;
+    z-index: 1;
+    color: #fff;
 }
 
 .card__profile {
+    width: 498px;
+    height: 176px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     display: flex;
     gap: 4px;
     align-items: center;
+}
+
+.card__name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    color: #fff;
+}
+
+.card__company {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #bbb;
+}
+
+.card__details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card__bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: auto;
+    z-index: 0;
+    opacity: 0.5;
+    pointer-events: none;
 }

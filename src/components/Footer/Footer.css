@@ -1,0 +1,61 @@
+.footer {
+    height: 487px;
+    padding: 64px 0 64px 0;
+}
+
+.footer__logos {
+    display: flex;
+    gap: 40px;
+}
+
+.footer__text {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 112px 0 32px 0;
+    text-align: center;
+}
+
+.footer__head {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.footer__email {
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.footer__domain {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+}
+
+.footer__base {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.footer_links li a {
+    text-decoration: none;
+    color: #fff;
+}
