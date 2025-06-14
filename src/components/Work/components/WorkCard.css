@@ -102,11 +102,3 @@
     opacity: 0.4;
     z-index: 1;
 }
-
-.card {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    gap: 32px;
-    border-radius: 32px;
-}
