@@ -6,14 +6,16 @@
     border-radius: 32px;
 }
 
-.card__left {
-    width: 572px;
-    height: 429px;
-    border-radius: 24px;  
+.card__image {
+  max-width: 572px;
+  max-height: 429px;
+  border-radius: 24px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .card__right {
-    width: 572px;
     height: 429px;
     position: relative;
 }
@@ -27,8 +29,6 @@
 
 .card__desc {
     margin-top: 16px;
-    width: 572px;
-    height: 54px;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0;

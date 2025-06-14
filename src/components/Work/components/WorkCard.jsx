@@ -9,10 +9,10 @@ const WorkCard = ({id, workImg, workTitle, workDesc, tags }) => {
     
     <div className="card">
         <div className="card__left">
-            <img src={workImg} alt={workTitle} />
+            <img className="card__img" src={workImg} alt={workTitle} />
         </div>
         <div className="card__right">
-            <div className="card__right-upper">
+            <div className="card__right__upper">
                 <h3 className="card__heading">{workTitle}</h3>
                 <p className="card__desc">{workDesc}</p>
                 <div className="card__role">

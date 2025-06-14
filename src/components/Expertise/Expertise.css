@@ -1,5 +1,5 @@
 .expertise {
-    max-height: 560px;
+    min-height: 560px;
     padding: 64px 0 64px 0;
 }
 
